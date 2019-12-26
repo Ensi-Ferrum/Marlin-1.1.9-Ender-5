@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Marlin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Marlin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Marlin-Debug-12b5b5e24cdda834bf74.json",
+					"name" : "Marlin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Marlin-size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Marlin-size-Debug-03da856f5914fe789da2.json",
+					"name" : "Marlin-size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Marlin-upload::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Marlin-upload-Debug-d05bda6a7d63865bf7d9.json",
+					"name" : "Marlin-upload",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_CORE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_CORE-Debug-48baf56dfd275becaf01.json",
+					"name" : "uno_CORE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_SPI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_SPI-Debug-1f361ce46fc5e0e06abd.json",
+					"name" : "uno_SPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_SoftwareSerial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_SoftwareSerial-Debug-7703eecc4814566c9238.json",
+					"name" : "uno_SoftwareSerial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_Wire::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_Wire-Debug-0ccc5c4b1be6fd2ed7de.json",
+					"name" : "uno_Wire",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "upload::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-upload-Debug-90ae0e1687a07ae5b0d4.json",
+					"name" : "upload",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/3D Druck/Ender 5/Marlin FW/Marlin-1.1.x/Marlin-1.1.9-Ender-5/buildroot/share/cmake/out/build/x64-Debug",
+		"source" : "D:/3D Druck/Ender 5/Marlin FW/Marlin-1.1.x/Marlin-1.1.9-Ender-5/buildroot/share/cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

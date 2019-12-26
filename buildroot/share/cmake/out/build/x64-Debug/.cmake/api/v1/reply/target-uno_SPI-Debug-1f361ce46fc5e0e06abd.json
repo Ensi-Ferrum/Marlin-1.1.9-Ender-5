@@ -1,0 +1,125 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libuno_SPI.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"setup_arduino_library",
+			"setup_arduino_libraries",
+			"generate_arduino_firmware",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"marlin-cmake/Platform/Arduino.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 524,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1104,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1039,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1068,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -Os -w -std=gnu++11 -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -std=gnu++11 -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -DF_CPU=16000000L -DARDUINO=108010 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino\" -I\"C:/Program Files (x86)/Arduino/libraries\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard\"  -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/utility\"  -I\"C:/Program Files (x86)/Arduino/libraries/stepper\" -I\"C:/Program Files (x86)/Arduino/libraries/stepper/src\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/Wire\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src\" -I\"C:/Program Files (x86)/Arduino/libraries/servo\" -I\"C:/Program Files (x86)/Arduino/libraries/servo/src\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src\""
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "uno_CORE::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "uno_SPI::@6890427a1f51a3e7e1df",
+	"name" : "uno_SPI",
+	"nameOnDisk" : "libuno_SPI.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
